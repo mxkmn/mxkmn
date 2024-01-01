@@ -1,6 +1,6 @@
 <h1 align="center">
 
-hi, it's mxkmn <img src="photos/mxkmn_logo_morse.svg" width="24px" border-radius="4px"/>
+hi, it's mxkmn <img src="photos/mxkmn_logo_morse.svg" alt="logo" width="24px" border-radius="4px"/>
 
 <small><small><small>/* pronounced [mʌksikɔma:n] */</small></small></small>
 
@@ -23,13 +23,14 @@ As a student participated in 9 hackathons, taking 2nd place twice and 3rd place 
 My personal project to automatically add university timetable to the preinstalled system calendar. Under development, not released...
 
 Stack:
-* UI: Compose; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); Notifications. 
+
+* UI: Compose; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); Notifications.
 * Architecture: Multimodule; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
 * Network and connections: WorkManager; System calendar via ContentResolver/CalendarContract; Ktor Client; Kotlin Serialization; JSoup.
 * Local memory: Room; DataStore.
 * Tools and testing: Detekt; KtLint; Gradle convention plugins.
 
-Additional info: I struggled for three weeks looking for a solution to the problem of WorkManager not working periodically on Android 10+ (everything is fine on 5.1 and 7.1), hated it and almost migrated to AlarmManager. I had a long laugh when the sync worked 2 weeks after installing the app, even though it should have worked hours later. Tl;dr: NEVER specify flexInterval<!-- , don't use setInitialDelay -->. It will eat you up.
+Additional info: I struggled for three weeks looking for a solution to the problem of WorkManager not working periodically on Android 10+ (everything is fine on 5.1 and 7.1), hated it and almost migrated to AlarmManager. I had a long laugh when the sync worked 2 weeks after installing the app, even though it should have worked hours later. Tl;dr: NEVER specify flexInterval. It will eat you up.
 
 ### Laundry accounting
 
@@ -38,6 +39,7 @@ Additional info: I struggled for three weeks looking for a solution to the probl
 An application for linen accounting in laundries. Receives employee data from an RFID scanner via BLE, which was developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
 
 Stack:
+
 * UI: Compose; Compose Destinations; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650). 
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
 * Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
@@ -53,6 +55,7 @@ Additional info: As this was the second project for Irkutsk Oil Company, a monor
 An application for tracking people in an area without internet coverage. Receives data from trackers via BLE (they get location with GPS and communicates via LoRa), which were developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
 
 Stack:
+
 * UI: Compose; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); OpenStreetMap with Osmdroid library.
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
 * Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
@@ -60,6 +63,7 @@ Stack:
 * Tools and testing: Firebase Crashlytics/Analytics; MockK; Compose Tests; Detekt; KtLint; Gradle convention plugins.
 
 Migrations since project start:
+
 * Singlemodule -> Multimodule;
 * Default repository -> Monorepo for Irkutsk Oil;
 * Google Maps (Maps Compose library) -> Google Maps (Views) -> OpenStreetMap via Osmdroid library (Views);
@@ -73,6 +77,7 @@ Additional info: Thanks to experience, I now know that GMaps for Compose is very
 ### Other stack from older projects
 
 Also worked with:
+
 * UI: XML with Fragments; Navigation Component; Material2; View Binding;
 * Architecture: MVVM; LiveData; Dagger 2;
 * Network and connections: Retrofit; GSON serialization; WorkManager;
@@ -83,10 +88,12 @@ Also worked with:
 <details><summary><b>Some fun stuff</b></summary>
 
 ### At Summer Schools 2022 by Yandex Academy
+
 ![My Yandex team](photos/fun_stuff/yandex_team.jpg)
 ![Yandex certificate](photos/fun_stuff/yandex_certificate.jpg)
 
 ### At MDev Hackathon 2023 by Samsung IT Academy
+
 ![My MDev team](photos/fun_stuff/mdev_team.jpg)
 ![MDev certificate](photos/fun_stuff/mdev_certificate.jpg)
 We've got [max rating](https://github.com/mxkmn/HackathonAndroidBlindy?tab=readme-ov-file#result), but 2nd place :/
@@ -95,20 +102,19 @@ We've got [max rating](https://github.com/mxkmn/HackathonAndroidBlindy?tab=readm
 
 Built almost from scratch in 2021. It's cool, but I want to rebuild it again (to use new MCU and support RTOS features, make it smaller and also rewrite some crappy code).
 
-![](photos/fun_stuff/weatherstation.jpg)
+![Photo](photos/fun_stuff/weatherstation.jpg)
 
 ### With [Vlad Savin](https://t.me/VladSavin) at the punk garage "Glotka" (2023)
 
-![](photos/fun_stuff/bestie.jpg)
+![Photo](photos/fun_stuff/bestie.jpg)
 
 </details>
-
 
 ## Some interests beyond development
 
 <details><summary><b>Photographing</b></summary>
 
-Check out some pics of nature and travelling on [Instagram](https://instagram.com/mxkmn.inc). Nothing more for now.
+Check out some pics of nature and travelling on [Instagram](https://instagram.com/mxkmn.inc).
 
 </details>
 
@@ -124,13 +130,13 @@ Check out some pics of nature and travelling on [Instagram](https://instagram.co
 
 <details><summary><b>Bottles collection</b></summary>
 
-![](photos/bottles.jpg)
+![Photo](photos/bottles.jpg)
 
 Perhaps I should have shown them from a more attractive angle :/
 
 </details>
 
-<details><summary><b>Music and sound</b></summary>
+<details><summary><b>Music&sound</b></summary>
 
 Because everyone likes it and writes about on personal pages 🥱.
 
@@ -142,11 +148,11 @@ It also requires quality audio equipment, figuring it out was fun and it led to 
 
 ---
 
-Maybe more? Just check [my Telegram blog](https://t.me/c2eef5d9f8a508cbde003c06305b170b) (RU) to know more.
+Maybe more? Just check [my Telegram blog](https://t.me/c2eef5d9f8a508cbde003c06305b170b) (RU).
 
 ## Some nerds statistic
 
-![](https://komarev.com/ghpvc/?username=mxkmn)
+![Profile views](https://komarev.com/ghpvc/?username=mxkmn)
 
 Last days from [my Code::Stats](https://codestats.net/users/mxkmn):
 
