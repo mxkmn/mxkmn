@@ -10,7 +10,7 @@ hi, it's mxkmn <img src="photos/mxkmn_logo_morse.svg" alt="logo" width="24px"/>
 
 Nowadays and next years I'm an Android developer, also like to play with microcontrollers and bring their benefits to business. Writes lots of useful Android stuff on [StackOverflow](https://stackoverflow.com/users/12544067/mxkmn?tab=answers).
 
-I've worked as an individual and as a team developer in a small outsourcing studios. Currently also working on a personal project for thousands of students.
+I've worked as an individual and as a team developer in a startup and small outstaff studio.
 
 As a student participated in 9 hackathons, taking 2nd place twice and 3rd place four times. One day I'll get the first, hopefully.
 
@@ -18,21 +18,19 @@ As a student participated in 9 hackathons, taking 2nd place twice and 3rd place 
 
 ---
 
-|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|
-|:-:|:-:|
+|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[News and downloads (RU)](https://t.me/chronusapp)|Preparing for publication on Google Play...|
+|:-:|:-:|:-:|:-:|
 
-<!-- [News and downloads (RU)](https://mxkmn.github.io/projects/chronus)| -->
+https://github.com/mxkmn/mxkmn/assets/75564533/03b9f1d1-27bb-49de-810e-7ae55a22cccd
 
-![Screenshots](photos/projects/chronus.jpg)
-
-My personal project to automatically add the university timetable to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches. In development, not released yet.
+Just the best university timetable app in the world. It automatically adds schedule to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches.
 
 |Stack|
 |:-:|
 
-* UI: Compose; Material3; Splashscreen API; Dynamic theming on Android 8.1+; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); Notifications.
+* UI: Compose; Compose Navigation; Material3; Splashscreen API; Dynamic theming on Android 8.1+; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); Notifications.
 * Architecture: Multimodule; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
-* Network and connections: [WorkManager](https://stackoverflow.com/a/77812387/12544067); System calendar via ContentResolver; JSoup; Ktor Client; Kotlin Serialization.
+* Network and connections: [WorkManager](https://stackoverflow.com/a/77812387/12544067); Calendar Provider (ContentResolver); JSoup; Ktor Client; Kotlin Serialization.
 * Local memory: Room; DataStore.
 * Tools and testing: Tracer by OK.Tech; Detekt; KtLint; Gradle convention plugins.
 
@@ -53,7 +51,7 @@ An application for linen accounting in laundries. Receives employee data from an
 |Stack|
 |:-:|
 
-* UI: Compose; Compose Destinations; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650).
+* UI: Compose; Compose Navigation; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650).
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
 * Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
 * Local memory: Room; DataStore; [Storage Access Framework](https://stackoverflow.com/questions/64720379/writing-many-files-on-android-11/77087157#77087157); [.xlsx creation](https://stackoverflow.com/questions/50738119/how-to-create-and-write-to-excel-file-xlsx/77171826#77171826).
@@ -71,14 +69,14 @@ As this was the second project for Irkutsk Oil Company, a monorepository was est
 
 ![Screenshots](photos/projects/tracker.jpg)
 
-An application for tracking people in an area without internet coverage. Receives data from trackers via BLE (they get location with GPS and communicates via LoRa), which were developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
+An application for tracking people in an area without internet coverage. Receives data from trackers via BLE (they get location with GPS and communicates via LoRa in mesh network), which were developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
 
 |Stack|
 |:-:|
 
 * UI: Compose; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); OpenStreetMap with Osmdroid library.
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
-* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
+* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library; Protobufs (to use extended Meshtastic protocol).
 * Local memory: Room.
 * Tools and testing: Tracer by OK.Tech; Detekt; KtLint; Gradle convention plugins; MockK; Compose Tests.
 
@@ -89,6 +87,7 @@ An application for tracking people in an area without internet coverage. Receive
 * Default repository -> Monorepo for Irkutsk Oil;
 * Google Maps (Maps Compose library) -> Google Maps (Views) -> OpenStreetMap via Osmdroid library (Views);
 * BLE via pure Android SDK -> Kable lib;
+* Self-made firmware for microcontroller -> [Meshtastic](https://meshtastic.org/) based modified firmware (so I had to understand the workings of Meshtastic's Protobuf-based communication protocol without documentation);
 * Network connections via pure OkHttp -> Ktor Client;
 * Accompanist permissions handling -> Self-written permissions handling for Compose;
 * Gradle with Groovy -> Gradle with Kotlin and Gradle convention plugins;
@@ -101,12 +100,12 @@ Thanks to experience, I now know that GMaps for Compose is very unstable and it 
 
 ---
 
-|In older projects, also worked with|
+|In not presented projects also worked with|
 |:-:|
 
 * UI: XML with Fragments; Navigation Component; Material2; View Binding.
-* Architecture: MVVM; LiveData; Dagger 2.
-* Network and connections: Retrofit; GSON serialization; WorkManager.
+* Architecture: Foreground Services; MVVM; LiveData; Dagger 2.
+* Network and connections: Retrofit; GSON serialization; WorkManager; GPS via Fused Location Provider.
 * Tools, testing and other: Mockito; Espresso; iBeacon.
 
 ---
@@ -144,9 +143,13 @@ Built almost from scratch in 2021. It's cool, but I want to rebuild it again (to
 
 ## Some interests beyond development
 
-<details><summary><b>Photographing</b></summary>
+<details><summary><b>Music&sound</b></summary>
 
-Check out some pics of nature and travelling on [Instagram](https://instagram.com/mxkmn.inc).
+Because everyone likes it and writes about on personal pages 🥱.
+
+So, if you want to know about my taste in melodic screamo kircore rap: [Deezer profile](http://deezer.com/en/profile/4884764102). Or just click on your ultra-random button: [a](https://www.youtube.com/watch?v=bIgBj-G1Vj0) [b](https://www.youtube.com/watch?v=PE3UMiIUaXY) [c](https://www.youtube.com/watch?v=6Gha9xrM10w) [d](https://www.youtube.com/watch?v=JiQHclg_648) [e](https://www.youtube.com/watch?v=wobbf3lb2nk) [f](photos/my_foot.jpg) [g](https://www.youtube.com/watch?v=iVvXB-Vwnco) [h](https://www.youtube.com/watch?v=xuhZtyAwBdE) [i](https://www.youtube.com/watch?v=8dnJpuWuGn8) [j](https://www.youtube.com/watch?v=Yt0kHiRsnHA) [k](https://www.youtube.com/watch?v=t_gRKiXg3Ao) [l](https://www.youtube.com/watch?v=jDcB8FxLFkc) [m](https://www.youtube.com/watch?v=GnvWQVidGS0) [n](https://www.youtube.com/watch?v=d9yJ2WNL-z0) [o](https://www.youtube.com/watch?v=JWVUq-dViWM) [p](https://www.youtube.com/watch?v=lf0d7Dcfcew) [q](https://www.youtube.com/watch?v=0TSuZfQ3ZfI) [r](https://www.youtube.com/watch?v=v9bzFBCMWSw) [s](https://www.youtube.com/watch?v=mY_oDyqRM1A) [t](https://www.youtube.com/watch?v=x7BObbvFPtI) [u](https://www.youtube.com/watch?v=YnGRrWNOZ4E) [v](https://www.youtube.com/watch?v=kqPZltX1dHk) [w](https://www.youtube.com/watch?v=L5dIOnTuRWY) [x](https://www.youtube.com/watch?v=yh3Cy4NuuF8) [y](https://www.youtube.com/watch?v=3UkaCLm__NA) [z](https://www.youtube.com/watch?v=_csj6mA7pOA)
+
+It also requires quality audio equipment, figuring it out was fun and it led to a [set of posts with my conclusions](https://4pda.to/forum/index.php?showtopic=975324) (RU). Comparison of 25+ pairs of TWS included. Right now, my choice is the magnificent Noble FoKus Pro.
 
 </details>
 
@@ -160,21 +163,15 @@ Check out some pics of nature and travelling on [Instagram](https://instagram.co
 
 </details>
 
-<details><summary><b>Bottles collection</b></summary>
+<details><summary><b>Other details</b></summary>
 
-![Photo](photos/bottles.jpg)
+Interested in style and care about appearance (currently writing an article about it).
 
-Perhaps I should have shown them from a more attractive angle :/
+Loving the photography. Check out some pics of nature and travelling on my [Instagram](https://instagram.com/mxkmn.inc).
 
-</details>
+I also have a bottle collection 🤠:
 
-<details><summary><b>Music&sound</b></summary>
-
-Because everyone likes it and writes about on personal pages 🥱.
-
-So, if you want to know about my taste in melodic screamo kircore rap: [Deezer profile](http://deezer.com/en/profile/4884764102). Or click on your ultra-random button: [a](https://www.youtube.com/watch?v=bIgBj-G1Vj0) [b](https://www.youtube.com/watch?v=PE3UMiIUaXY) [c](https://www.youtube.com/watch?v=6Gha9xrM10w) [d](https://www.youtube.com/watch?v=JiQHclg_648) [e](https://www.youtube.com/watch?v=wobbf3lb2nk) [f](photos/my_foot.jpg) [g](https://www.youtube.com/watch?v=iVvXB-Vwnco) [h](https://www.youtube.com/watch?v=xuhZtyAwBdE) [i](https://www.youtube.com/watch?v=8dnJpuWuGn8) [j](https://www.youtube.com/watch?v=Yt0kHiRsnHA) [k](https://www.youtube.com/watch?v=t_gRKiXg3Ao) [l](https://www.youtube.com/watch?v=jDcB8FxLFkc) [m](https://www.youtube.com/watch?v=GnvWQVidGS0) [n](https://www.youtube.com/watch?v=d9yJ2WNL-z0) [o](https://www.youtube.com/watch?v=JWVUq-dViWM) [p](https://www.youtube.com/watch?v=lf0d7Dcfcew) [q](https://www.youtube.com/watch?v=0TSuZfQ3ZfI) [r](https://www.youtube.com/watch?v=v9bzFBCMWSw) [s](https://www.youtube.com/watch?v=v2wCvNgvYE0) [t](https://www.youtube.com/watch?v=x7BObbvFPtI) [u](https://www.youtube.com/watch?v=YnGRrWNOZ4E) [v](https://www.youtube.com/watch?v=kqPZltX1dHk) [w](https://www.youtube.com/watch?v=L5dIOnTuRWY) [x](https://www.youtube.com/watch?v=yh3Cy4NuuF8) [y](https://www.youtube.com/watch?v=3UkaCLm__NA) [z](https://www.youtube.com/watch?v=_csj6mA7pOA)
-
-It also requires quality audio equipment, figuring it out was fun and it led to a [set of posts with my conclusions](https://4pda.to/forum/index.php?showtopic=975324) (RU). Comparison of 25+ pairs of TWS included. Right now, my choice is the magnificent Noble FoKus Pro.
+![Bottle collection photo](photos/bottles.jpg)
 
 </details>
 
