@@ -1,8 +1,6 @@
 <h1 align="center">
 
-hi, it's mxkmn <img src="photos/mxkmn_logo_morse.svg" alt="logo" width="24px"/>
-
-<small><small><small>/* pronounced [mʌksikɔma:n] */</small></small></small>
+hi, it's mxkmn <sup>pronounced [mʌksikɔma:n]</sup>
 
 ![Someday in 2020](photos/header.jpg)
 
@@ -10,20 +8,16 @@ hi, it's mxkmn <img src="photos/mxkmn_logo_morse.svg" alt="logo" width="24px"/>
 
 Nowadays and next years I'm an Android developer, also like to play with microcontrollers and bring their benefits to business. Writes lots of useful Android stuff on [StackOverflow](https://stackoverflow.com/users/12544067/mxkmn?tab=answers).
 
-I've worked as an individual and as a team developer in a startup and small outstaff studio.
-
-As a student participated in 9 hackathons, taking 2nd place twice and 3rd place four times. One day I'll get the first, hopefully.
-
 <details><summary><b>My latest&greatest projects</b></summary>
 
 ---
 
-|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[News and downloads (RU)](https://t.me/chronusapp)|Preparing for publication on Google Play...|
+|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="photos/assets/tg_icon.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[preparing for publication on <img src="photos/assets/gp_icon.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
 |:-:|:-:|:-:|:-:|
 
-https://github.com/mxkmn/mxkmn/assets/75564533/03b9f1d1-27bb-49de-810e-7ae55a22cccd
+https://github.com/mxkmn/mxkmn/assets/75564533/aa3c79d8-d389-4a7b-a1e7-fc7a8edc1a77
 
-Just the best university timetable app in the world. It automatically adds schedule to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches.
+Just the best university timetable app in the world. It automatically adds schedule to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches. Works by parsing web pages and automatically synronises data several times a day.
 
 |Stack|
 |:-:|
@@ -41,35 +35,12 @@ Hated WorkManager, check my story at StackOverflow (follow the link by clicking 
 
 ---
 
-|<img src="photos/projects/laundry_icon.webp" alt="icon" width="48px">|Laundry accounting|
-|:-:|:-:|
-
-![Screenshots](photos/projects/laundry.jpg)
-
-An application for linen accounting in laundries. Receives employee data from an RFID scanner via BLE, which was developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
-
-|Stack|
-|:-:|
-
-* UI: Compose; Compose Navigation; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650).
-* Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
-* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
-* Local memory: Room; DataStore; [Storage Access Framework](https://stackoverflow.com/questions/64720379/writing-many-files-on-android-11/77087157#77087157); [.xlsx creation](https://stackoverflow.com/questions/50738119/how-to-create-and-write-to-excel-file-xlsx/77171826#77171826).
-* Tools and testing: Detekt; KtLint; Gradle convention plugins.
-
-|Additional info|
-|:-:|
-
-As this was the second project for Irkutsk Oil Company, a monorepository was established for all current and future projects, which increased development speed by times and greatly improved code quality and component reusability.
-
----
-
 |<img src="photos/projects/tracker_icon.webp" alt="icon" width="48px">|Offline tracker|
 |:-:|:-:|
 
-![Screenshots](photos/projects/tracker.jpg)
+<img src="photos/projects/tracker.jpg" alt="Screenshots" width="70%" />
 
-An application for tracking people in an area without internet coverage. Receives data from trackers via BLE (they get location with GPS and communicates via LoRa in mesh network), which were developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
+An application to track people in an area without internet coverage. Receives data from trackers via BLE (they locate with GPS and communicate via LoRa in a mesh network), which were developed with me. Offline-first approach. Application developed entirely by me on behalf of the Irkutsk Oil Company.
 
 |Stack|
 |:-:|
@@ -98,6 +69,34 @@ An application for tracking people in an area without internet coverage. Receive
 
 Thanks to experience, I now know that GMaps for Compose is very unstable and it makes sense to use an implementation of all actions via View and an additional class to abstract the map capabilities. Migrated to OSM at the request of the customer.
 
+Also it's my graduation work:
+
+|[Graduation work (RU)](pdfs/graduation_work/work.pdf)|[Presentation (RU)](pdfs/graduation_work/presentation_ru.pdf)|[Presentation (EN)](pdfs/graduation_work/presentation_en.pdf)|
+|:-:|:-:|:-:|
+
+---
+
+|<img src="photos/projects/laundry_icon.webp" alt="icon" width="48px">|Laundry accounting|
+|:-:|:-:|
+
+<img src="photos/projects/laundry.jpg" alt="Screenshots" width="70%" />
+
+An application for linen accounting in laundries. Receives employee data from an RFID scanner via BLE, which was developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
+
+|Stack|
+|:-:|
+
+* UI: Compose; Compose Navigation; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650).
+* Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
+* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
+* Local memory: Room; DataStore; [Storage Access Framework](https://stackoverflow.com/questions/64720379/writing-many-files-on-android-11/77087157#77087157); [.xlsx creation](https://stackoverflow.com/questions/50738119/how-to-create-and-write-to-excel-file-xlsx/77171826#77171826).
+* Tools and testing: Detekt; KtLint; Gradle convention plugins.
+
+|Additional info|
+|:-:|
+
+As this was the second project for Irkutsk Oil Company, a monorepository was established for all current and future projects, which increased development speed by times and greatly improved code quality and component reusability.
+
 ---
 
 |In not presented projects also worked with|
@@ -119,12 +118,15 @@ Thanks to experience, I now know that GMaps for Compose is very unstable and it 
 ### At Summer Schools 2022 by Yandex Academy
 
 ![My Yandex team](photos/fun_stuff/yandex_team.jpg)
-![Yandex certificate](photos/fun_stuff/yandex_certificate.jpg)
+
+<img src="photos/fun_stuff/yandex_certificate.jpg" alt="Yandex certificate" width="70%" />
 
 ### At MDev Hackathon 2023 by Samsung IT Academy
 
 ![My MDev team](photos/fun_stuff/mdev_team.jpg)
-![MDev certificate](photos/fun_stuff/mdev_certificate.jpg)
+
+<img src="photos/fun_stuff/mdev_certificate.jpg" alt="MDev certificate" width="70%" />
+
 We've got [max rating](https://github.com/mxkmn/HackathonAndroidBlindy?tab=readme-ov-file#result), but 2nd place :/
 
 ### My [weather station](https://github.com/mxkmn/Esp8266WeatherStation/blob/main/README_ru.md)
@@ -138,6 +140,22 @@ Built almost from scratch in 2021. It's cool, but I want to rebuild it again (to
 ![Photo](photos/fun_stuff/bestie.jpg)
 
 ---
+
+</details>
+
+<details><summary><b>My experience and statistics</b></summary>
+
+I've worked as an individual and as a team developer in a startup and small outstaff studio.
+
+As a student participated in 9 hackathons, taking 2nd place twice and 3rd place four times. One day I'll get the first, hopefully.
+
+Loving coding since 2015, professionally since 2021. [My CV (RU)](pdfs/cv.pdf)
+
+---
+
+Last days from [my Code::Stats](https://codestats.net/users/mxkmn):
+
+![History graph](https://codestats-readme.wegfan.cn/history-graph/mxkmn?bg_color=111&text_color=aaa&grid_color=333&language_colors=["3e4053","cc4b48","518fbd","ba7a2b","60bd68","f17cb0","b2912f","c71585","b276b2"])
 
 </details>
 
@@ -159,7 +177,7 @@ It also requires quality audio equipment, figuring it out was fun and it led to 
 
 ![Photo 2](photos/bicycle/ph2.jpg)
 
-![Statistics in 2023](photos/bicycle/stats_2023.png)
+<img src="photos/bicycle/stats_2024.jpg" alt="Statistics in 2024" width="50%" />
 
 </details>
 
@@ -175,16 +193,4 @@ I also have a bottle collection 🤠:
 
 </details>
 
----
-
-Maybe more? Just check [my Telegram blog](https://t.me/+huBNjjdh_gRlMjU6) (RU). It's also where you can read about my [current life goals](https://t.me/mxkmn_inc/3).
-
-## Some nerds statistic
-
-![Profile views](https://komarev.com/ghpvc/?username=mxkmn)
-
-Last days from [my Code::Stats](https://codestats.net/users/mxkmn):
-
-![History graph](https://codestats-readme.wegfan.cn/history-graph/mxkmn?bg_color=111&text_color=aaa&grid_color=333&language_colors=["3e4053","cc4b48","518fbd","ba7a2b","60bd68","f17cb0","b2912f","c71585","b276b2"])
-
-Loving coding since 2015, professionally since 2021.
+Maybe more? Just check [my Telegram blog](https://t.me/+huBNjjdh_gRlMjU6) (RU).
