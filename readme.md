@@ -12,7 +12,7 @@ Nowadays and next years I'm an Android developer, also like to play with microco
 
 ---
 
-|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="photos/assets/tg_icon.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[preparing for publication on <img src="photos/assets/gp_icon.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
+|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="photos/assets/tg_icon.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[download on <img src="photos/assets/gp_icon.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
 |:-:|:-:|:-:|:-:|
 
 https://github.com/mxkmn/mxkmn/assets/75564533/aa3c79d8-d389-4a7b-a1e7-fc7a8edc1a77
@@ -26,7 +26,7 @@ Just the best university timetable app in the world. It automatically adds sched
 * Architecture: Multimodule; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
 * Network and connections: [WorkManager](https://stackoverflow.com/a/77812387/12544067); Calendar Provider (ContentResolver); JSoup; Ktor Client; Kotlin Serialization.
 * Local memory: Room; DataStore.
-* Tools and testing: Tracer by OK.Tech; Detekt; KtLint; Gradle convention plugins.
+* Tools and testing: Baseline/Startup Profiles; Tracer by OK.Tech; Detekt; KtLint; Gradle convention plugins.
 
 |Additional info|
 |:-:|
@@ -47,7 +47,7 @@ An application to track people in an area without internet coverage. Receives da
 
 * UI: Compose; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650); OpenStreetMap with Osmdroid library.
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
-* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library; Protobufs (to use extended Meshtastic protocol).
+* Network and connections: Ktor Client; Kotlin Serialization; [Bluetooth LE](https://stackoverflow.com/questions/78731848/how-do-i-make-a-ble-connection-to-a-peripheral-with-kotlin-multiplatform-or-nati/78731849#78731849); Protobufs (to use extended Meshtastic protocol).
 * Local memory: Room.
 * Tools and testing: Tracer by OK.Tech; Detekt; KtLint; Gradle convention plugins; MockK; Compose Tests.
 
@@ -88,7 +88,7 @@ An application for linen accounting in laundries. Receives employee data from an
 
 * UI: Compose; Compose Navigation; Material3; Splashscreen API; [Self-written compose permissions handling](https://stackoverflow.com/questions/60608101/how-request-permissions-with-jetpack-compose/77027650#77027650).
 * Architecture: Multimodule approach in monorepository for all Irkutsk Oil projects; Single Activity; MVI/UDF/Clean Architecture with Jetpack ViewModel and Kotlin Flows; Coroutines; Dagger Hilt.
-* Network and connections: Ktor Client; Kotlin Serialization; Bluetooth LE with Kable library.
+* Network and connections: Ktor Client; Kotlin Serialization; [Bluetooth LE](https://stackoverflow.com/questions/78731848/how-do-i-make-a-ble-connection-to-a-peripheral-with-kotlin-multiplatform-or-nati/78731849#78731849).
 * Local memory: Room; DataStore; [Storage Access Framework](https://stackoverflow.com/questions/64720379/writing-many-files-on-android-11/77087157#77087157); [.xlsx creation](https://stackoverflow.com/questions/50738119/how-to-create-and-write-to-excel-file-xlsx/77171826#77171826).
 * Tools and testing: Detekt; KtLint; Gradle convention plugins.
 
