@@ -15,7 +15,7 @@ Nowadays and next years I'm an Android developer, also like to play with microco
 |<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="photos/assets/tg_icon.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[download on <img src="photos/assets/gp_icon.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
 |:-:|:-:|:-:|:-:|
 
-https://github.com/mxkmn/mxkmn/assets/75564533/aa3c79d8-d389-4a7b-a1e7-fc7a8edc1a77
+https://github.com/user-attachments/assets/68fcfb1c-24e9-4ce6-aef1-417f1f566e2e
 
 Just the best university timetable app in the world. It automatically adds schedule to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches. Works by parsing web pages and automatically synronises data several times a day.
 
@@ -184,8 +184,6 @@ It also requires quality audio equipment, figuring it out was fun and it led to 
 <details><summary><b>Other details</b></summary>
 
 Interested in style and care about appearance (currently writing an article about it).
-
-Loving the photography. Check out some pics of nature and travelling on my [Instagram](https://instagram.com/mxkmn.inc).
 
 I also have a bottle collection 🤠:
 
