@@ -177,7 +177,9 @@ It also requires quality audio equipment, figuring it out was fun and it led to 
 
 ![Photo 2](photos/bicycle/ph2.jpg)
 
-<img src="photos/bicycle/stats_2024.jpg" alt="Statistics in 2024" width="50%" />
+<img src="photos/bicycle/stats_2024_2.png" alt="The record in 2024" width="50%" />
+
+[More about this record (RU)](https://t.me/mxkmn_inc/131)
 
 </details>
 
