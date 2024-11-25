@@ -2,7 +2,7 @@
 
 hi, it's mxkmn <sup>pronounced [mʌksikɔma:n]</sup>
 
-![Someday in 2020](photos/header.jpg)
+![Someday in 2020](assets/photos/header.jpg)
 
 </h1>
 
@@ -12,7 +12,7 @@ Nowadays and next years I'm an Android developer, also like to play with microco
 
 ---
 
-|<img src="photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="photos/assets/tg_icon.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[download on <img src="photos/assets/gp_icon.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
+|<img src="assets/photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="assets/photos/icons/tg.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[download on <img src="assets/photos/icons/gplay.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
 |:-:|:-:|:-:|:-:|
 
 https://github.com/user-attachments/assets/68fcfb1c-24e9-4ce6-aef1-417f1f566e2e
@@ -35,10 +35,10 @@ Hated WorkManager, check my story at StackOverflow (follow the link by clicking 
 
 ---
 
-|<img src="photos/projects/tracker_icon.webp" alt="icon" width="48px">|Offline tracker|
+|<img src="assets/photos/projects/tracker_icon.webp" alt="icon" width="48px">|Offline tracker|
 |:-:|:-:|
 
-<img src="photos/projects/tracker.jpg" alt="Screenshots" width="70%" />
+<img src="assets/photos/projects/tracker.jpg" alt="Screenshots" width="70%" />
 
 An application to track people in an area without internet coverage. Receives data from trackers via BLE (they locate with GPS and communicate via LoRa in a mesh network), which were developed with me. Offline-first approach. Application developed entirely by me on behalf of the Irkutsk Oil Company.
 
@@ -71,15 +71,15 @@ Thanks to experience, I now know that GMaps for Compose is very unstable and it 
 
 Also it's my graduation work:
 
-|[Graduation work (RU)](pdfs/graduation_work/work.pdf)|[Presentation (RU)](pdfs/graduation_work/presentation_ru.pdf)|[Presentation (EN)](pdfs/graduation_work/presentation_en.pdf)|
+|[Graduation work (RU)](assets/pdfs/graduation_work/work.pdf)|[Presentation (RU)](assets/pdfs/graduation_work/presentation_ru.pdf)|[Presentation (EN)](assets/pdfs/graduation_work/presentation_en.pdf)|
 |:-:|:-:|:-:|
 
 ---
 
-|<img src="photos/projects/laundry_icon.webp" alt="icon" width="48px">|Laundry accounting|
+|<img src="assets/photos/projects/laundry_icon.webp" alt="icon" width="48px">|Laundry accounting|
 |:-:|:-:|
 
-<img src="photos/projects/laundry.jpg" alt="Screenshots" width="70%" />
+<img src="assets/photos/projects/laundry.jpg" alt="Screenshots" width="70%" />
 
 An application for linen accounting in laundries. Receives employee data from an RFID scanner via BLE, which was developed in team with me. Offline-first approach. Developed completely by me by order of Irkutsk Oil Company.
 
@@ -103,7 +103,7 @@ As this was the second project for Irkutsk Oil Company, a monorepository was est
 |:-:|
 
 * UI: XML with Fragments; Navigation Component; Material2; View Binding.
-* Architecture: Foreground Services; MVVM; LiveData; Dagger 2.
+* Architecture: Foreground Services; MVVM; LiveData; Dagger 2; RxJava; App Startup.
 * Network and connections: Retrofit; GSON serialization; WorkManager; GPS via Fused Location Provider.
 * Tools, testing and other: Mockito; Espresso; iBeacon.
 
@@ -117,15 +117,15 @@ As this was the second project for Irkutsk Oil Company, a monorepository was est
 
 ### At Summer Schools 2022 by Yandex Academy
 
-![My Yandex team](photos/fun_stuff/yandex_team.jpg)
+![My Yandex team](assets/photos/fun_stuff/yandex_team.jpg)
 
-<img src="photos/fun_stuff/yandex_certificate.jpg" alt="Yandex certificate" width="70%" />
+<img src="assets/photos/fun_stuff/yandex_certificate.jpg" alt="Yandex certificate" width="70%" />
 
 ### At MDev Hackathon 2023 by Samsung IT Academy
 
-![My MDev team](photos/fun_stuff/mdev_team.jpg)
+![My MDev team](assets/photos/fun_stuff/mdev_team.jpg)
 
-<img src="photos/fun_stuff/mdev_certificate.jpg" alt="MDev certificate" width="70%" />
+<img src="assets/photos/fun_stuff/mdev_certificate.jpg" alt="MDev certificate" width="70%" />
 
 We've got [max rating](https://github.com/mxkmn/HackathonAndroidBlindy?tab=readme-ov-file#result), but 2nd place :/
 
@@ -133,11 +133,11 @@ We've got [max rating](https://github.com/mxkmn/HackathonAndroidBlindy?tab=readm
 
 Built almost from scratch in 2021. It's cool, but I want to rebuild it again (to use new MCU and support RTOS features, make it smaller and also rewrite some crappy code).
 
-![Photo](photos/fun_stuff/weatherstation.jpg)
+![Photo](assets/photos/fun_stuff/weatherstation.jpg)
 
 ### With [Vlad Savin](https://t.me/VladSavin) at the punk garage "Glotka" (2023)
 
-![Photo](photos/fun_stuff/bestie.jpg)
+![Photo](assets/photos/fun_stuff/bestie.jpg)
 
 ---
 
@@ -149,7 +149,7 @@ I've worked as an individual and as a team developer in a startup and small outs
 
 As a student participated in 9 hackathons, taking 2nd place twice and 3rd place four times. One day I'll get the first, hopefully.
 
-Loving coding since 2015, professionally since 2021. [My CV (RU)](pdfs/cv.pdf)
+Loving coding since 2015, professionally since 2021. [My CV (RU)](assets/pdfs/cv.pdf)
 
 ---
 
@@ -165,7 +165,7 @@ Last days from [my Code::Stats](https://codestats.net/users/mxkmn):
 
 Because everyone likes it and writes about on personal pages 🥱.
 
-So, if you want to know about my taste in melodic screamo kircore rap: [Deezer profile](http://deezer.com/en/profile/4884764102). Or just click on your ultra-random button: [a](https://www.youtube.com/watch?v=bIgBj-G1Vj0) [b](https://www.youtube.com/watch?v=PE3UMiIUaXY) [c](https://www.youtube.com/watch?v=6Gha9xrM10w) [d](https://www.youtube.com/watch?v=JiQHclg_648) [e](https://www.youtube.com/watch?v=wobbf3lb2nk) [f](photos/my_foot.jpg) [g](https://www.youtube.com/watch?v=iVvXB-Vwnco) [h](https://www.youtube.com/watch?v=xuhZtyAwBdE) [i](https://www.youtube.com/watch?v=8dnJpuWuGn8) [j](https://www.youtube.com/watch?v=Yt0kHiRsnHA) [k](https://www.youtube.com/watch?v=t_gRKiXg3Ao) [l](https://www.youtube.com/watch?v=jDcB8FxLFkc) [m](https://www.youtube.com/watch?v=GnvWQVidGS0) [n](https://www.youtube.com/watch?v=d9yJ2WNL-z0) [o](https://www.youtube.com/watch?v=JWVUq-dViWM) [p](https://www.youtube.com/watch?v=lf0d7Dcfcew) [q](https://www.youtube.com/watch?v=0TSuZfQ3ZfI) [r](https://www.youtube.com/watch?v=v9bzFBCMWSw) [s](https://www.youtube.com/watch?v=mY_oDyqRM1A) [t](https://www.youtube.com/watch?v=x7BObbvFPtI) [u](https://www.youtube.com/watch?v=YnGRrWNOZ4E) [v](https://www.youtube.com/watch?v=kqPZltX1dHk) [w](https://www.youtube.com/watch?v=L5dIOnTuRWY) [x](https://www.youtube.com/watch?v=yh3Cy4NuuF8) [y](https://www.youtube.com/watch?v=3UkaCLm__NA) [z](https://www.youtube.com/watch?v=_csj6mA7pOA)
+So, if you want to know about my taste in melodic screamo kircore rap: [Deezer profile](http://deezer.com/en/profile/4884764102). Or just click on your ultra-random button: [a](https://www.youtube.com/watch?v=bIgBj-G1Vj0) [b](https://www.youtube.com/watch?v=PE3UMiIUaXY) [c](https://www.youtube.com/watch?v=6Gha9xrM10w) [d](https://www.youtube.com/watch?v=JiQHclg_648) [e](https://www.youtube.com/watch?v=wobbf3lb2nk) [f](assets/photos/my_foot.jpg) [g](https://www.youtube.com/watch?v=iVvXB-Vwnco) [h](https://www.youtube.com/watch?v=xuhZtyAwBdE) [i](https://www.youtube.com/watch?v=8dnJpuWuGn8) [j](https://www.youtube.com/watch?v=Yt0kHiRsnHA) [k](https://www.youtube.com/watch?v=t_gRKiXg3Ao) [l](https://www.youtube.com/watch?v=jDcB8FxLFkc) [m](https://www.youtube.com/watch?v=GnvWQVidGS0) [n](https://www.youtube.com/watch?v=d9yJ2WNL-z0) [o](https://www.youtube.com/watch?v=JWVUq-dViWM) [p](https://www.youtube.com/watch?v=lf0d7Dcfcew) [q](https://www.youtube.com/watch?v=0TSuZfQ3ZfI) [r](https://www.youtube.com/watch?v=v9bzFBCMWSw) [s](https://www.youtube.com/watch?v=mY_oDyqRM1A) [t](https://www.youtube.com/watch?v=x7BObbvFPtI) [u](https://www.youtube.com/watch?v=YnGRrWNOZ4E) [v](https://www.youtube.com/watch?v=kqPZltX1dHk) [w](https://www.youtube.com/watch?v=L5dIOnTuRWY) [x](https://www.youtube.com/watch?v=yh3Cy4NuuF8) [y](https://www.youtube.com/watch?v=3UkaCLm__NA) [z](https://www.youtube.com/watch?v=_csj6mA7pOA)
 
 It also requires quality audio equipment, figuring it out was fun and it led to a [set of posts with my conclusions](https://4pda.to/forum/index.php?showtopic=975324) (RU). Comparison of 25+ pairs of TWS included. Right now, my choice is the magnificent Noble FoKus Pro.
 
@@ -173,11 +173,11 @@ It also requires quality audio equipment, figuring it out was fun and it led to 
 
 <details><summary><b>Summer cycling activities</b></summary>
 
-![Photo 1](photos/bicycle/ph1.jpg)
+![Photo 1](assets/photos/bicycle/ph1.jpg)
 
-![Photo 2](photos/bicycle/ph2.jpg)
+![Photo 2](assets/photos/bicycle/ph2.jpg)
 
-<img src="photos/bicycle/stats_2024_2.png" alt="The record in 2024" width="50%" />
+<img src="assets/photos/bicycle/stats_2024_2.png" alt="The record in 2024" width="50%" />
 
 [More about this record (RU)](https://t.me/mxkmn_inc/131)
 
@@ -189,7 +189,7 @@ Interested in style and care about appearance (currently writing an article abou
 
 I also have a bottle collection 🤠:
 
-![Bottle collection photo](photos/bottles.jpg)
+![Bottle collection photo](assets/photos/bottles.jpg)
 
 </details>
 
