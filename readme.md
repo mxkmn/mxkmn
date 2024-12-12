@@ -15,9 +15,12 @@ Nowadays and next years I'm an Android developer, also like to play with microco
 |<img src="assets/photos/projects/chronus_icon.webp" alt="icon" width="48px">|chronus|[news at <img src="assets/photos/icons/tg.png" alt="Telegram icon" width="48px">](https://t.me/chronusapp)|[download on <img src="assets/photos/icons/gplay.webp" alt="Google Play icon" width="48px">](https://play.google.com/store/apps/details?id=mxkmn.chronus)|
 |:-:|:-:|:-:|:-:|
 
+![chronus screenshots](https://github.com/user-attachments/assets/bf5180a3-b24b-4780-9878-1d150c6966c8)
+
+
 https://github.com/user-attachments/assets/68fcfb1c-24e9-4ce6-aef1-417f1f566e2e
 
-Just the best university timetable app in the world. It automatically adds schedule to the Android pre-installed calendar, allowing it to be displayed in any widget or on a smartwatches. Works by parsing web pages and automatically synronises data several times a day.
+Just the best schedule app for Russian universities. It automatically adds the schedule to the built-in Android calendar, so it can be displayed in any widget, on a smartwatch, or on any device compatible with cloud calendars (e.g. Google Calendar). Works by parsing web pages or using REST APIs, automatically synchronizes data several times a day and provides rich schedule customization.
 
 |Stack|
 |:-:|
